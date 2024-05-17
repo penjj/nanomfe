@@ -28,5 +28,5 @@ module.exports = {
     "no-empty": ["error", { allowEmptyCatch: true }],
     "prettier/prettier": ["error", { endOfLine: "auto" }],
   },
-  ignorePatterns: ["esm/*.js", "__test__/apps/*/*.html"],
+  ignorePatterns: ["dist/*.js", "__test__/apps/*/*.html"],
 };

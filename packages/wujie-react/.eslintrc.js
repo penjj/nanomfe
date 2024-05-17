@@ -11,5 +11,5 @@ module.exports = {
   },
   plugins: ["react"],
   rules: {},
-  ignorePatterns: ["esm/*.js"],
+  ignorePatterns: ["dist/*.js"],
 };
